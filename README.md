@@ -12,9 +12,9 @@ While kindletool works with the current stable releases of libarchive & nettle, 
 
 		brew tap NiLuJe/kindletool
 
-* Install nettle @ git master
+* Install nettle
 
-		brew install NiLuJe/kindletool/nettle-git --HEAD
+		brew install nettle
 
 * Install libarchive @ git master
 
