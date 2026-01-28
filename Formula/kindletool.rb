@@ -11,6 +11,7 @@ class Kindletool < Formula
   depends_on "nettle"
 
   def install
+    # Make sure the buildsystem will be able to generate a proper version tag
     ENV["GIT_DIR"] = cached_download/".git" if build.head?
 
     system "make"
