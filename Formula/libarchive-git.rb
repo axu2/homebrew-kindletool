@@ -1,7 +1,7 @@
 class LibarchiveGit < Formula
   desc "Multi-format archive and compression library"
   homepage "https://www.libarchive.org"
-  url "https://www.libarchive.org/downloads/libarchive-3.8.5.tar.xz"
+  url "https://github.com/libarchive/libarchive/releases/download/v3.8.5/libarchive-3.8.5.tar.xz"
   sha256 "d68068e74beee3a0ec0dd04aee9037d5757fcc651591a6dcf1b6d542fb15a703"
   license "BSD-2-Clause"
 
