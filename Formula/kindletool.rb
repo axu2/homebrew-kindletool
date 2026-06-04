@@ -7,8 +7,6 @@ class Kindletool < Formula
   head "https://github.com/NiLuJe/KindleTool.git", shallow: false
 
   depends_on "pkg-config" => :build
-  depends_on "NiLuJe/kindletool/libarchive-git"
-  depends_on "nettle"
 
   def install
     # Make sure the buildsystem will be able to generate a proper version tag
